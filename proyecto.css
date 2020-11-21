@@ -1,4 +1,8 @@
 
+body
+{
+    background-color: #FF3314;
+}
 
 
 
@@ -23,14 +27,17 @@
 
 
 
-
-
-
-
-
-
-
-
+/*-----Bloque Card-----*/
+.tarjetas
+{   
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.card
+{
+    background-color: #D5AD56;
+}
+/*----------------------*/
 
 
 
