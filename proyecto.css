@@ -19,11 +19,12 @@
 
 
 
-
-
-
-
-
+/** DIV CON VIDEOSs-------------------------------------------------------------------------*/
+#divNavideño{
+    background-color: #018667;
+    text-align: justify;
+    font-weight: bold;
+}
 
 
 
@@ -39,7 +40,7 @@
 
 /** FOOTER ---------------------------------------------------------------------------------*/
 .textoFooter{
-    color: white;
+    color: #FFFFFF;
 }
 
 .footerColorPrimary{
