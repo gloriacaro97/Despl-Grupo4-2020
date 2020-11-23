@@ -1,7 +1,13 @@
+body
+{
+    background-color: #FF3314;
+}
+
 #m_navegador {
     background-color: #018667;
 }
 
+/*-----Carrusel-----*/
 .carrusel {
     padding-top: 5%;
 }
@@ -10,38 +16,17 @@
     width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*-----Bloque Card-----*/
+.tarjetas
+{   
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.card
+{
+    background-color: #D5AD56;
+}
+/*----------------------*/
 
 /** FOOTER ---------------------------------------------------------------------------------*/
 .textoFooter{
