@@ -3,9 +3,24 @@ body
     background-color: #FF3314;
 }
 
+/* NAVEGADOR -----------------------------------------------------------------------*/
 #m_navegador {
     background-color: #018667;
 }
+
+/* Animación icono --------------------------------*/
+@keyframes icono {
+    0% {transform: rotate(0deg);}
+    20% {transform: rotate(0deg);}
+    80%  {transform: rotate(360deg);}
+    100% {transform: rotate(360deg);}
+    }
+
+    .icono_copo {
+        position: relative;
+        animation: icono 7s linear -1s infinite normal;
+    }
+
 
 /*-----Carrusel-----*/
 .carrusel {
