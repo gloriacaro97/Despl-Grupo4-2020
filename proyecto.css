@@ -43,6 +43,16 @@ body
 }
 /*----------------------*/
 
+.contenedor-borde{
+    background-color: #D5AD56; 
+    padding: 1.5%;  
+    border: 2px solid red;
+    border-radius: 15px;
+}
+.contenedor{
+    background-color:#F8E19F; padding: 2%; border-radius: 15px;
+}
+
 /** FOOTER ---------------------------------------------------------------------------------*/
 .textoFooter{
     color: white;
