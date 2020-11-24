@@ -1,41 +1,57 @@
+body
+{
+    background-color: #FF3314;
+}
+
+/* NAVEGADOR -----------------------------------------------------------------------*/
+#m_navegador {
+    background-color: #018667;
+}
+
+/* Animación icono --------------------------------*/
+@keyframes icono {
+    0% {transform: rotate(0deg);}
+    20% {transform: rotate(0deg);}
+    80%  {transform: rotate(360deg);}
+    100% {transform: rotate(360deg);}
+    }
+
+    .icono_copo {
+        position: relative;
+        animation: icono 7s linear -1s infinite normal;
+    }
 
 
+/*-----Carrusel-----*/
+.carrusel {
+    padding-top: 5%;
+}
 
+#imagen-dulce{
+    width: 100%;
+}
 
+/*-----Bloque Card-----*/
+.tarjetas
+{   
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.card
+{
+    background-color: #D5AD56;
+}
+/*----------------------*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.contenedor-borde{
+    background-color: #D5AD56; 
+    padding: 1.5%;  
+    border: 2px solid red;
+    border-radius: 15px;
+}
+.contenedor{
+    background-color:#F8E19F; padding: 2%; border-radius: 15px;
+}
 
 /** FOOTER ---------------------------------------------------------------------------------*/
 .textoFooter{
@@ -47,4 +63,7 @@
 }
 .footerColorSecundary{
     background-color: #003F2D;
+}
+#enlace{
+    color: darkblue;
 }
