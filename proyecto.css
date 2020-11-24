@@ -64,6 +64,21 @@ body
 .footerColorSecundary{
     background-color: #003F2D;
 }
+<<<<<<< HEAD
 #enlace{
     color: darkblue;
 }
+=======
+/*----------------------------------------*/
+
+/*-----Bloque Audio-----*/
+.musica
+{
+    opacity: 0.6;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
+/*----------------------*/
+>>>>>>> 78157732ce190221d43df72079a968bf86104f50
