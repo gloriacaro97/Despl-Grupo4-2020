@@ -1,3 +1,4 @@
+
 body
 {
     background-color: #FF3314;
@@ -64,11 +65,11 @@ body
 .footerColorSecundary{
     background-color: #003F2D;
 }
-<<<<<<< HEAD
+
 #enlace{
     color: darkblue;
 }
-=======
+
 /*----------------------------------------*/
 
 /*-----Bloque Audio-----*/
@@ -80,5 +81,25 @@ body
     bottom: 0px;
     z-index: 1;
 }
-/*----------------------*/
->>>>>>> 78157732ce190221d43df72079a968bf86104f50
+
+
+/** DIV CON VIDEOS-------------------------------------------------------------------------*/
+#divNavideño{
+    background-color: #018667;
+    text-align: justify;
+    font-weight: bold;
+}
+
+
+
+/** FOOTER ---------------------------------------------------------------------------------*/
+.textoFooter{
+    color: #FFFFFF;
+}
+
+.footerColorPrimary{
+    background-color: #018667;
+}
+.footerColorSecundary{
+    background-color: #003F2D;
+}
