@@ -69,7 +69,12 @@ body
 #enlace{
     color: darkblue;
 }
-
+.footer-form{
+    position: fixed;
+    height: auto;
+    bottom: 0;
+    width: 100%;
+}
 /*----------------------------------------*/
 
 /*-----Bloque Audio-----*/
@@ -88,18 +93,21 @@ body
     background-color: #018667;
     text-align: justify;
     font-weight: bold;
+    border-style: solid;
+    color: white;
 }
 
-
-
-/** FOOTER ---------------------------------------------------------------------------------*/
-.textoFooter{
-    color: #FFFFFF;
+/**-----------------------------------------------------------------*/
+.formulario-image{
+    padding-top: 6%;
+    margin-left: 2%;
+    
 }
-
-.footerColorPrimary{
-    background-color: #018667;
+.btn-formulario{
+    background-color: #D5AD56;
 }
-.footerColorSecundary{
-    background-color: #003F2D;
+.videos-content{
+    text-align: center;
+    margin: 0px auto;
+  
 }
