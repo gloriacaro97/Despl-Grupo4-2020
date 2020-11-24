@@ -10,124 +10,163 @@
 
         <meta name="copyright" content="I.E.S Hermanos Machado - 2º DAW - Grupo 4" />
 
-        
-
-
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="proyecto.css">
     </head>
     <body>
-
-        <!-- NAVEGADOR -------------------------------------------------------------------->
-        <nav id="m_navegador" class="navbar navbar-expand-lg navbar-dark fixed-top">
-            <div class="container">
-              <a class="navbar-brand" href="index.html">
-                <img src="img/copo-de-nieve_white.png" width="30" height="30" class="d-inline-block align-top" alt="Logo_copo-de-nieve_white"> Eventos Navideños
+      <!-- NAVEGADOR -------------------------------------------------------------------->
+      <nav id="m_navegador" class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/copo-de-nieve_white.png" width="30" height="30" class="icono_copo d-inline-block align-top" alt="Logo_copo-de-nieve_white"> Eventos Navideños
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Inicio
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=" ">Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=" ">Contáctanos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- NAVEGADOR -------------------------------------------------------------------->
+    
+      <!-- CAROUSEL --------------------------------------------------------------------->
+      <div class="container carrusel">
+        <div class="row">
+          <div class="col-5">
+            <div id="gCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#gCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#gCarousel" data-slide-to="1"></li>
+                <li data-target="#gCarousel" data-slide-to="2"></li>
+                <li data-target="#gCarousel" data-slide-to="3"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/hot-chocolate.jpg" class="d-block w-100" alt="Cake Pops">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/cupcakes1.jpg" class="d-block w-100" alt="Cupcakes">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/cookie.jpg" class="d-block w-100" alt="Cupcakes">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/manualidad1.jpg" class="d-block w-100" alt="Cupcakes">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#gCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
               </a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Inicio
-                      <span class="sr-only">(current)</span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href=" ">Eventos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href=" ">Contáctanos</a>
-                  </li>
-                </ul>
+              <a class="carousel-control-next" href="#gCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-7">
+            <img id="imagen-dulce" src="img/cake-pops.jpg" alt="Cakepops"/>
+            <br><br>
+            <p>
+              Ven a disfrutar de los dulces que tenemos preparados para ti: 
+              <ul>
+                <li>Decora y disfruta de un rico chocolate caliente</li>
+                <li>Decora los cupcakes que tenemos preparados</li>
+                <li>Decora las galletas y los cakepops de distintas formas como más te gusten</li>
+              </ul>
+              Además, construye tu casa navideña y añádela al gran pueblo navideño que se formará con todas vuestras creaciones.<br><br>
+              <b>¿A QUÉ ESTÁS ESPERANDO?</b>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- CAROUSEL --------------------------------------------------------------------->  
+      <br>
+      <!--Elementos Card-->
+      <div class="container-fluid">
+      <div class="tarjetas row justify-content-around">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <img src="img/puestos.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Puestos Navideños</h5>
+              <p class="card-text">Disfruta de los multiples puestos con una infinidad de elementos de decoración, regalos y comida navideña</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="img/noelVsreyes.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Vota por tus Preferidos</h5>
+                <p class="card-text">¿Eres más de Papa Noel o de los Reyes Magos? Llevale tu carta de deseos a tus preferidos y muestrale tu apoyo a estos grandes repartidores de deseos</p>
               </div>
             </div>
-          </nav>
-          <!-- NAVEGADOR -------------------------------------------------------------------->
-        
-<div class="container-fluid">
-
-<!--Elementos Card-->
-<div class="tarjetas row justify-content-around">
-
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-    <div class="card">
-      <img src="img/puestos.jpg" class="card-img-top">
-      <div class="card-body">
-        <h5 class="card-title">Puestos Navideños</h5>
-        <p class="card-text">Disfruta de los multiples puestos con una infinidad de elementos de decoración, regalos y comida navideña</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-      <div class="card">
-        <img src="img/noelVsreyes.jpg" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Vota por tus Preferidos</h5>
-          <p class="card-text">¿Eres más de Papa Noel o de los Reyes Magos? Llevale tu carta de deseos a tus preferidos y muestrale tu apoyo a estos grandes repartidores de deseos</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <img src="img/patinaje.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Pista de Hielo</h5>
+              <p class="card-text">Diviertete patinando en nuestra pista de hielo de una gran extensión y con alta capacidad</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+      <!-------------------------------------->
 
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-      <div class="card">
-        <img src="img/patinaje.jpg" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Pista de Hielo</h5>
-          <p class="card-text">Diviertete patinando en nuestra pista de hielo de una gran extensión y con alta capacidad</p>
+      <!--Bloque Footer de la página-->
+      <footer class="page-footer font-small">
+        <div class="container-fluid text-center text-md-left mt-4 footerColorPrimary">
+          <div class="row">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mt-2 ">
+                <h6 class="text-uppercase font-weight-bold " >Sobre nosotros</h6>
+                <hr class="accent-2 mb-2 mt-0 d-inline-block mx-auto" style="width: 60px">
+                <p class="textoFooter">Esta página ha sido diseñada por el grupo 4 para la asignatura Despliegue de Aplicaciones Web</p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-2">
+                <h6 class="text-uppercase font-weight-bold">Tienda</h6>
+                <p><a href="#" >App Android</a></p>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mt-2" >
+                <h6 class="text-uppercase font-weight-bold">Contacto</h6>
+                <p><i class="mr-3 textoFooter">Dos Hermanas, Sevilla 41089 España</i></p>
+                <p><i class="mr-3 textoFooter">grupo4-Despliegue2020@ieshnosmachado.org</i></p>
+                <p><i class="mr-3" ><a href="#" >¡Contáctanos!</a></i></p>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-<!------------------------------------------------------->
-</div>
+        <div class="text-center py-3 textoFooter footerColorSecundary">© 2020 Copyright:
+            <a href="http://www.ieshnosmachado.org/"> Hermanos Machado.org</a>
+        </div>
+      </footer>
+      <!---------------------------------------------->
 
-        <!--Bloque Footer de la página-->
-        <footer class="page-footer font-small">
-            <div class="container-fluid text-center text-md-left mt-4 footerColorPrimary">
-                <div class="row">
-                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mt-2 ">
-                        <h6 class="text-uppercase font-weight-bold " >Sobre nosotros</h6>
-                        <hr class="accent-2 mb-2 mt-0 d-inline-block mx-auto" style="width: 60px">
-                        <p class="textoFooter">Esta página ha sido diseñada por el grupo 4 para la asignatura Despliegue de Aplicaciones Web</p>
-
-                    </div>
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-2">
-                        <h6 class="text-uppercase font-weight-bold">Tienda</h6>
-                        <p><a href="#" >App Android</a></p>
-                    </div>
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mt-2" >
-                        <h6 class="text-uppercase font-weight-bold">Contacto</h6>
-                        <p><i class="mr-3 textoFooter">Dos Hermanas, Sevilla 41089 España</i></p>
-                        <p><i class="mr-3 textoFooter">grupo4-Despliegue2020@ieshnosmachado.org</i></p>
-                        <p><i class="mr-3" ><a href="#" >¡Contáctanos!</a></i></p>
-                    </div>
-                </div>          
-
-            </div>
-            <div class="text-center py-3 textoFooter footerColorSecundary">© 2020 Copyright:
-                <a href="http://www.ieshnosmachado.org/"> Hermanos Machado.org</a>
-            </div>
-        </footer>
-        <!---------------------------------------->
-
-        
-      <!--Elemento audio-->
-      <div class="musica">
-        <audio controls autoplay loop>
-          <source src="musica.mp3" type="audio/mpeg">
-            Tu navegador no puede soportar el formato de audio
-        </audio>
-      </div> 
-      <!---->
-
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+ <!--Elemento audio-->
+ <div class="musica">
+  <audio controls autoplay loop>
+    <source src="musica.mp3" type="audio/mpeg">
+      Tu navegador no puede soportar el formato de audio
+  </audio>
+</div> 
+<!---->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
-
 </html>
